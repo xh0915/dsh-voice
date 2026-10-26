@@ -1,0 +1,44 @@
+MIT License
+
+Copyright (c) 2026 dsh-voice contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+附加说明 / Additional Notice
+============================
+
+本软件是 DeepSeek Harness 的一个 skill 插件，通过 HTTP API 调用以下第三方
+服务。MIT 许可证只覆盖本仓库中的代码与文档，**不覆盖这些第三方服务本身**：
+
+1. Breeze Blue (https://breezeblue.ai)
+   - 提供语音合成（TTS）能力
+   - 使用需自备 API key，并遵守其服务条款
+   - 本代码不含任何 Breeze 的专有代码
+
+2. 阿里云百炼 / Aliyun Bailian (https://bailian.console.aliyun.com)
+   - 通过 `bl` CLI 提供语音识别（STT）能力
+   - 使用需自备 DASHSCOPE_API_KEY，并遵守阿里云服务条款
+
+用户通过本软件生成的内容（音频、克隆音色等）的归属与责任，
+以对应第三方平台的服务条款为准。
+
+声音克隆功能涉及他人声音时，**使用者必须自行确保已获得说话者授权**。
+本软件不提供、也不构成任何法律授权。
